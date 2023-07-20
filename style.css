@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 header{
     text-align: center;
     position: relative;
@@ -158,6 +163,11 @@ header-center{
 @media screen and (max-width: 600px) {
     @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap');
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
     .logo img{
         width: 150%;
     }
@@ -201,7 +211,7 @@ header-center{
         clip-path: ellipse(250% 99% at 50% 0);
         margin-top: -30rem;
         padding-top: 30rem;
-        height: 85rem;
+        height: 95rem;
         z-index: -2;
     }
     .down h3{
